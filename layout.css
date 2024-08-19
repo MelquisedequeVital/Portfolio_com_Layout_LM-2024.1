@@ -3,12 +3,13 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 20px;
 }
 
 main{
     display: grid;
     width: 80%;
-    margin: 15px auto;
+    margin: 100px auto;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: auto auto auto;  
     row-gap: 120px;
@@ -37,12 +38,12 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     column-gap: 20px;
 }
 
-.adress, .social, .about{
+.address, .social, .about{
     text-align: center;
 }
 
